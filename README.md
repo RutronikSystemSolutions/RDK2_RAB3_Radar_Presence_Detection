@@ -1,6 +1,6 @@
-# RDK2 - Presence detection using RAB3 Radar and RDK2
+# RDK2 RAB3-Radar Presence Detection and GUI 
 
-This code example demonstrates digital signal processing implemented on a PSoC62 to be used with a BGT60TR13C radar sensor from Infineon.
+This code example demonstrates digital signal processing implemented on a PSoC62 for use with a BGT60TR13C radar sensor from Infineon.
 
 <img src="pictures/rdk2_rab3.png" style="zoom:25%;" />
 
@@ -22,11 +22,11 @@ A new project will be created inside your workspace.
 
 ## Operation
 
-Simply plug a USB cable into the Kit Prog3 USB connector.
+Plug a USB cable into the Kit Prog3 USB connector.
 You then have 2 possibilities:
-1) Use with a custom GUI (C# Visual Studio project is located inside the directory gui/src).
+1) Use with a custom GUI (the C# Visual Studio project is located inside the directory gui/src).
 
-In that case, you should have this define inside the main.c file:
+In that case, you should have this defined inside the main.c file:
 
 ```
 #define OUTPUT_FOR_VISUALISATION_GUI
@@ -43,7 +43,7 @@ In that case, you should have this line inside the main.c file:
 ## Change the radar configuration
 You can change the radar configuration used to measure by generating a new "radar_settings.h" configuration.
 
-Use the tool provided by Infineon “[Radar Fusion GUI](https://softwaretools.infineon.com/tools/com.ifx.tb.tool.ifxradargui)” to generate a new version of the file.
+Use the Infineon “Radar Fusion GUI” tool to generate a new version of the file.
 
 ## Libraries
 
