@@ -10,6 +10,9 @@ This code example demonstrates digital signal processing implemented on a PSoC62
 - [RAB3-Radar](https://www.rutronik24.com/product/rutronik/rab3radar/23169671.html)
 - [RDK2](https://www.rutronik24.fr/produit/rutronik/rdk2/16440182.html)
 
+## Supported toolchains (make variable 'TOOLCHAIN')
+
+- GNU Arm&reg; Embedded Compiler v11.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
 
 ## Using the code example with a ModusToolbox™ IDE:
 
